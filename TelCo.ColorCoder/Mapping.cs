@@ -5,7 +5,7 @@ using System.Drawing;
 namespace TelCo.ColorCoder{
     partial class Program
     {
-         public static string PrintMap()
+         public override  string ToString()
         {
             StringBuilder ReferenceManual= new StringBuilder();
             int n = 1;
