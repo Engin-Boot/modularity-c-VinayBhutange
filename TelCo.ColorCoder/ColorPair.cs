@@ -1,10 +1,11 @@
 using System;
 using System.Diagnostics;
 using System.Drawing;
+using static TelCo.ColorCoder.ColorList;
 
 namespace TelCo.ColorCoder
 {
-    class ColorPair
+    public class ColorPair
     {
         private static ColorPair GetColorFromPairNumber(int pairNumber)
         {

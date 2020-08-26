@@ -3,6 +3,7 @@ using System.Text;
 using System.Diagnostics;
 using System.Drawing;
 using System.Text;
+using static TelCo.ColorCoder.ColorList;
 
 namespace TelCo.ColorCoder{
     class Manual
@@ -18,8 +19,8 @@ namespace TelCo.ColorCoder{
                 {
                     string minorColorCode = colorMapMinor[j].ToString();
                     referenceManual.Append(n.ToString() + " ");
-                    referenceManual.Append(MajorColorCode + " ");
-                    referenceManual.AppendLine(MinorColorCode);
+                    referenceManual.Append(majorColorCode + " ");
+                    referenceManual.AppendLine(minorColorCode);
                     n++;
                 }
             }

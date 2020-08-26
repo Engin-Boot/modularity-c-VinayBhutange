@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 using System.Drawing;
+using static TelCo.ColorCoder.ColorList;
 
 namespace TelCo.ColorCoder
 {
@@ -43,8 +44,8 @@ namespace TelCo.ColorCoder
             Console.WriteLine("[In]Colors: {0}, [Out] PairNumber: {1}", testPair2, pairNumber);
             Debug.Assert(pairNumber == 6);
             
-            Program manual = new Program(); 
-            Console.WriteLine(manual.ToString());
+            Manual obj = new Manual(); 
+            Console.WriteLine(obj.ToString());
         }
     }
 }
