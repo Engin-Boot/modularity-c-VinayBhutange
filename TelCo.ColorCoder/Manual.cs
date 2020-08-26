@@ -2,7 +2,6 @@ using System;
 using System.Text;
 using System.Diagnostics;
 using System.Drawing;
-using System.Text;
 
 namespace TelCo.ColorCoder{
     partial class Program
