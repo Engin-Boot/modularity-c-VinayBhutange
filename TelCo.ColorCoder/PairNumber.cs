@@ -4,7 +4,7 @@ using System.Drawing;
 
 namespace TelCo.ColorCoder
 {
-    partial class Program
+    class PairNumber
     {
         private static int GetPairNumberFromColor(ColorPair pair)
         {
