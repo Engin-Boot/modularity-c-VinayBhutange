@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Diagnostics;
 using System.Drawing;
-using static TelCo.ColorCoder.ColorList;
 
 namespace TelCo.ColorCoder
 {
@@ -12,7 +11,7 @@ namespace TelCo.ColorCoder
     /// This class provides the color coding and 
     /// mapping of pair number to color and color to pair number.
     /// </summary>
-    class Program
+    partial class Program
     {
         private static void Main(string[] args)
         {
@@ -44,8 +43,8 @@ namespace TelCo.ColorCoder
             Console.WriteLine("[In]Colors: {0}, [Out] PairNumber: {1}", testPair2, pairNumber);
             Debug.Assert(pairNumber == 6);
             
-            Manual obj = new Manual(); 
-            Console.WriteLine(obj.ToString());
+            Program manual = new Program(); 
+            Console.WriteLine(manual.ToString());
         }
     }
 }

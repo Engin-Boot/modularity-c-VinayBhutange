@@ -11,16 +11,16 @@ namespace TelCo.ColorCoder
     /// This class provides the color coding and 
     /// mapping of pair number to color and color to pair number.
     /// </summary>
-    public class ColorList
+    partial class Program
     {
         /// <summary>
         /// Array of Major colors
         /// </summary>
-        public static Color[] colorMapMajor;
+        private static Color[] colorMapMajor;
         /// <summary>
         /// Array of minor colors
         /// </summary>
-        public static Color[] colorMapMinor;
+        private static Color[] colorMapMinor;
         /// <summary>
         /// data type defined to hold the two colors of clor pair
         /// </summary>
@@ -36,11 +36,11 @@ namespace TelCo.ColorCoder
         /// <summary>
         /// Static constructor required to initialize static variable
         /// </summary>
-        static ColorList()
+        static Program()
         {
             colorMapMajor = new Color[] { Color.White, Color.Red, Color.Black, Color.Yellow, Color.Violet };
             colorMapMinor = new Color[] { Color.Blue, Color.Orange, Color.Green, Color.Brown, Color.SlateGray };
         }
-        
+
     }
 }

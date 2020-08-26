@@ -3,10 +3,9 @@ using System.Text;
 using System.Diagnostics;
 using System.Drawing;
 using System.Text;
-using static TelCo.ColorCoder.ColorList;
 
 namespace TelCo.ColorCoder{
-    class Manual
+    partial class Program
     {
          public override  string ToString()
         {

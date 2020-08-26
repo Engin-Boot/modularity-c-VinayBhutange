@@ -1,12 +1,10 @@
 using System;
 using System.Diagnostics;
 using System.Drawing;
-using static TelCo.ColorCoder.ColorList;
-using static TelCo.ColorCoder.ColorPair;
 
 namespace TelCo.ColorCoder
 {
-    public class PairNumber
+    partial class Program
     {
         private static int GetPairNumberFromColor(ColorPair pair)
         {
@@ -46,6 +44,6 @@ namespace TelCo.ColorCoder
         /// Test code for the class
         /// </summary>
         /// <param name="args"></param>
-        
+
     }
 }
