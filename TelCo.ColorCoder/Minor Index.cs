@@ -7,6 +7,7 @@ namespace TelCo.ColorCoder
 {
     partial class Program
     {
+        // Find the major color in the array and get the index
         public static int CaluclateMinorIndex(ColorPair pair)
         {
             int minorIndex = -1;

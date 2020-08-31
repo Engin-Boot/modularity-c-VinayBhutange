@@ -7,7 +7,8 @@ using System.Drawing;
 namespace TelCo.ColorCoder
 {
     partial class Program
-    { 
+    {
+        // Find the minor color in the array and get the index
         public static int CaluclateMajorIndex(ColorPair pair)
         {
             int majorIndex = -1;
