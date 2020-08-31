@@ -8,7 +8,7 @@ namespace TelCo.ColorCoder
     partial class Program
     {
         // Find the major color in the array and get the index
-        public static int CaluclateMinorIndex(ColorPair pair)
+        public static int CalculateMinorIndex(ColorPair pair)
         {
             int minorIndex = -1;
             for (int i = 0; i < colorMapMinor.Length; i++)

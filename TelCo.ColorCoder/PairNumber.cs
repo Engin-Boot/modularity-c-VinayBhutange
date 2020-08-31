@@ -9,10 +9,10 @@ namespace TelCo.ColorCoder
         private static int GetPairNumberFromColor(ColorPair pair)
         {
             // Find the major color in the array and get the index
-            int majorIndex = CaluclateMajorIndex(pair);
+            int majorIndex = CalculateMajorIndex(pair);
 
             // Find the minor color in the array and get the index
-            int minorIndex = CaluclateMinorIndex(pair);
+            int minorIndex = CalculateMinorIndex(pair);
             
             // If colors can not be found throw an exception
             if (majorIndex == -1 || minorIndex == -1)
